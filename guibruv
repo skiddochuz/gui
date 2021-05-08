@@ -1,0 +1,125 @@
+local ScreenGui = Instance.new("ScreenGui")
+local menu = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local BeliDealer = Instance.new("TextButton")
+local CousinDealer = Instance.new("TextButton")
+local TpRey = Instance.new("TextButton")
+local TpPrison = Instance.new("TextButton")
+local TpCap = Instance.new("TextButton")
+local Mhee = Instance.new("TextButton")
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+menu.Name = "menu"
+menu.Parent = ScreenGui
+menu.Active = true
+menu.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+menu.BorderColor3 = Color3.fromRGB(15, 15, 15)
+menu.BorderSizePixel = 2
+menu.Position = UDim2.new(0.0193596445, 0, 0.0245700255, 0)
+menu.Selectable = true
+menu.Size = UDim2.new(0, 535, 0, 295)
+menu.Draggable = true
+
+title.Name = "title"
+title.Parent = menu
+title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderColor3 = Color3.fromRGB(15, 15, 15)
+title.BorderSizePixel = 2
+title.Size = UDim2.new(0, 535, 0, 20)
+title.Font = Enum.Font.SourceSansBold
+title.Text = "Blox Fruits Script. Made By Chuz#0001"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 20.000
+
+BeliDealer.Name = "BeliDealer"
+BeliDealer.Parent = menu
+BeliDealer.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+BeliDealer.BorderColor3 = Color3.fromRGB(20, 20, 20)
+BeliDealer.BorderSizePixel = 2
+BeliDealer.Position = UDim2.new(0.0562620014, 0, 0.135593221, 0)
+BeliDealer.Size = UDim2.new(0, 200, 0, 50)
+BeliDealer.Font = Enum.Font.SourceSansBold
+BeliDealer.Text = "Tp To Devil Fruit Seller"
+BeliDealer.TextColor3 = Color3.fromRGB(255, 255, 255)
+BeliDealer.TextSize = 20.000
+BeliDealer.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HFfDCHdR",true))()
+    end)
+
+CousinDealer.Name = "CousinDealer"
+CousinDealer.Parent = menu
+CousinDealer.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+CousinDealer.BorderColor3 = Color3.fromRGB(20, 20, 20)
+CousinDealer.BorderSizePixel = 2
+CousinDealer.Position = UDim2.new(0.568669796, 0, 0.135593221, 0)
+CousinDealer.Size = UDim2.new(0, 200, 0, 50)
+CousinDealer.Font = Enum.Font.SourceSansBold
+CousinDealer.Text = "Tp To Cousin Dealer"
+CousinDealer.TextColor3 = Color3.fromRGB(255, 255, 255)
+CousinDealer.TextSize = 20.000
+CousinDealer.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/G3N7fRxY",true))()
+    end)
+
+TpRey.Name = "TpRey"
+TpRey.Parent = menu
+TpRey.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TpRey.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TpRey.BorderSizePixel = 2
+TpRey.Position = UDim2.new(0.0560747646, 0, 0.413559318, 0)
+TpRey.Size = UDim2.new(0, 200, 0, 50)
+TpRey.Font = Enum.Font.SourceSansBold
+TpRey.Text = "Tp To Rayleigh"
+TpRey.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpRey.TextSize = 20.000
+TpRey.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fD0tqMLn",true))()
+    end)
+
+TpPrison.Name = "TpPrison"
+TpPrison.Parent = menu
+TpPrison.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TpPrison.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TpPrison.BorderSizePixel = 2
+TpPrison.Position = UDim2.new(0.568224251, 0, 0.413559318, 0)
+TpPrison.Size = UDim2.new(0, 200, 0, 50)
+TpPrison.Font = Enum.Font.SourceSansBold
+TpPrison.Text = "Tp To Prison (Bosses)"
+TpPrison.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpPrison.TextSize = 20.000
+TpPrison.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3NMHmHYq",true))()
+    end)
+
+TpCap.Name = "TpCap"
+TpCap.Parent = menu
+TpCap.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TpCap.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TpCap.BorderSizePixel = 2
+TpCap.Position = UDim2.new(0.0560747646, 0, 0.691525459, 0)
+TpCap.Size = UDim2.new(0, 200, 0, 50)
+TpCap.Font = Enum.Font.SourceSansBold
+TpCap.Text = "Tp To Captain "
+TpCap.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpCap.TextSize = 20.000
+TpCap.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BK1pBtCh",true))()
+    end)
+
+Mhee.Name = "Mhee"
+Mhee.Parent = menu
+Mhee.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Mhee.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Mhee.BorderSizePixel = 2
+Mhee.Position = UDim2.new(0.568224251, 0, 0.691525459, 0)
+Mhee.Size = UDim2.new(0, 200, 0, 50)
+Mhee.Font = Enum.Font.SourceSansBold
+Mhee.Text = "Open MheeHub"
+Mhee.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mhee.TextSize = 20.000
+Mhee.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BunnySalf/Hentai/main/MHEEHUB",true))()
+    end)
